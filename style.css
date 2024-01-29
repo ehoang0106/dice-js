@@ -1,0 +1,32 @@
+body {
+    font-family: 'Honk', system-ui;
+}
+
+h1 {
+    font-size: 100px;
+
+}
+
+p {
+    font-size: 45px;
+}
+
+img {
+    width: 50%;
+}
+.container {
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.dice {
+    display: inline-block;
+    text-align: center;
+    margin: auto
+}
+
+
+
