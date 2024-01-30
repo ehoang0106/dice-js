@@ -6,6 +6,8 @@ function result() {
     var ranNum2 = Math.floor(Math.random() * 6) + 1;
     scrImg1 = "./images/dice" + ranNum1 +".png";
     scrImg2 = "./images/dice" + ranNum2 +".png";
+
+    //set img1
     var img1 = document.querySelectorAll("img")[0];
     img1.setAttribute("src", scrImg1);
 
@@ -13,6 +15,8 @@ function result() {
 
     var img2 = document.querySelectorAll("img")[1];
     img2.setAttribute("src", scrImg2);
+
+    //display winner
     if (ranNum1 > ranNum2){
         document.querySelector("h3").textContent = "Player 1 win!";
     }
